@@ -231,14 +231,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Banner Css ************/
+
 .banner {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(52,9,121,1) 20%, rgba(0,212,255,1) 78%);
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;

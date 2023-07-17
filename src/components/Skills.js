@@ -1,28 +1,8 @@
-
 import "react-multi-carousel/lib/styles.css";
 import './css/Skills.css'
 import colorSharp from "../assets/img/color-sharp.png";
 
 export const Skills = () => {
-  const timelineItems = [
-    {
-      date: "1st July 2023",
-      content: "Start Date",
-    },
-    {
-      date: "Mode of training",
-      content: "Self Learning Modules",
-    },
-    {
-      date: "For whom",
-      content: "Fresh Graduates",
-    },
-    {
-      date: "Duration",
-      content: "1 Month",
-    },
-  ];
-
   return (
     <section className="skill" id="skills">
       <div className="container">
@@ -58,7 +38,7 @@ export const Skills = () => {
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
+      <img className="background-image-left" src={colorSharp} alt=""/>
     </section>
   );
 };

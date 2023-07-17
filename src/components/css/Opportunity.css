@@ -1,4 +1,23 @@
 .project h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.placement {
+  padding: 100px 0px 50px 0px;
+}
+
+.placement img {
+  padding: 50px 0px 50px 0px;
+  max-width: 30%;
+  border: transparent;
+  border-radius: 20%;
+}
+
+/* .placement {
+  
+}
+
+.placement img {
+  
+} */

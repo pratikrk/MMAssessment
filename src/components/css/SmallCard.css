@@ -1,0 +1,45 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.small-card {
+    flex: 0 0 calc(25% - 20px);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    /* Update the desired height */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+}
+
+.small-card img {
+    width: 75px;
+    align-items: center;
+    margin-right: 0px;
+    margin-left: 0px;
+    
+}
+
+.small-card:hover {
+    transform: scale(1.05);
+}
+
+.small-card-image {
+    width: 100%;
+    height: auto;
+}
+
+.small-card-subheading {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
